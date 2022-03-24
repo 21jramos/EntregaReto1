@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styleReto1.css">
+    <title>Calculadora de Propinas</title>
+</head>
+<body>
+<h2 id="encab1">Calculadora de Propinas</h2>
+    <form id="formulario" name="">
+        <label>Total de la Cuenta</label>
+        <br>
+        <input type="number" name="" id="valor1" autofocus placeholder="Ingresa la cuenta aquí">
+        <br>
+        <br>
+        <br>
+        <label>Porcentaje de laPropina</label>
+        <br>
+        <input type="number" name="" id="valor2" autofocus placeholder="Ingrese el % aquí" min="0" Max="100" step="5">
+        <br>
+        <br>
+        <br>
+        <button type="button" id="btncalcular" onclick="iniciar();"><strong>CALCULAR</strong></button>
+        <br>
+        <br>
+        <br>
+   <div id="cuadroresumen">
+       <p id="resumen"><strong>RESUMEN</strong></p>
+    <br>
+    <br>
+    <p>
+        <div id="resultadosresumen">
+        Total Cuenta: <span id="resultado1"></span>
+        <br>
+        Propina:<span id="resultado2"></span>
+        <br>
+        Total a Pagar: <span id="resultado3"></span>
+        <br>
+        </div>
+   </p>
+   </div>
+    </form>
+<h5>JoseRamos Aprendiz Geek</h5>
+<script src="../Reto1/scriptsReto1.js"></script>
+</body>
+</html>
